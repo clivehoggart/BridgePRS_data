@@ -1,0 +1,1 @@
+~/plink2 --vcf /sc/arion/projects/psychgen/resources/1000Genome_phase3_ref_panel/hg38/20190312_biallelic_SNV_and_INDEL/ALL.chr22.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.phased.vcf.gz dosage=DS --make-pgen --double-id --out chr22
