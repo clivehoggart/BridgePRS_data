@@ -1,0 +1,32 @@
+/hpc/users/hoggac01/prsice/PRSice_linux \
+    --a1 A1 \
+    --a2 AX \
+    --bar-levels 0.001,0.05,0.1,0.2,0.3,0.4,0.5,1 \
+    --base /sc/arion/projects/psychgen/projects/prs/cross_population_prs_development/quick_ridge/results/BBJ/meta/TP_genome.gz \
+    --beta  \
+    --binary-target F \
+    --clump-kb 250kb \
+    --clump-p 1.000000 \
+    --clump-r2 0.100000 \
+    --cov /sc/arion/projects/psychgen/projects/prs/cross_population_prs_development/quick_ridge/hapmap/phenotype/30860/EAS-30860-test.dat \
+    --cov-col Age,Sex,@PC[1-40],Fasting,Dilution \
+    --extract /sc/arion/projects/psychgen/ukb/usr/clive/BBJ/bbj.snplist \
+    --interval 5e-05 \
+    --keep /sc/arion/projects/psychgen/projects/prs/cross_population_prs_development/quick_ridge/hapmap/phenotype/30860/EAS-all.dat \
+    --ld /sc/arion/projects/data-ark/1000G/phase3/PLINK/chr# \
+    --ld-keep /hpc/users/hoggac01/BridgePRS/data/EAS_IDs.txt \
+    --lower 5e-08 \
+    --num-auto 22 \
+    --out /sc/arion/projects/psychgen/projects/prs/cross_population_prs_development/quick_ridge/results/BBJ/prsice/TP_EAS \
+    --pheno /sc/arion/projects/psychgen/projects/prs/cross_population_prs_development/quick_ridge/hapmap/phenotype/30860/EAS-30860-test.dat \
+    --pheno-col Phenotype \
+    --print-snp  \
+    --pvalue P \
+    --seed 1741959771 \
+    --snp ID \
+    --stat BETA \
+    --target /sc/arion/projects/psychgen/ukb/usr/clive/ukb/imputed/chr# \
+    --thread 4 \
+    --ultra  \
+    --upper 0.5
+
